@@ -3,6 +3,7 @@ Test technique Lemonway
 Afin de pouvoir exploiter la solution correctement, je vous demande deux petites actions que je ne suis pas parvenu à sauvegarder au niveau des fichiers projets "pour tous" (malgré avoir coché la case "pour tous les utilisateurs" ?) mais au niveau des fichiers user, qui sont exclus via git ignore.
 
 1/ Aller dans les propriétés du projet SoapService de manière à lui demander de démarrer sur la page WebService.asmx
+
 2/ Au niveau des propriétés de la solution, cette fois, faire en sorte qu'il y ait 2 (ou 3) projets de démarrage (SoapService et WinformsApp et éventuellement ConsoleApp)
 
 Désolé pour ce petit désagrément mais je suis à court de temps et soit je vous renvoie le test maintenant dans cet état, soit je le corrige mais ce ne sera pas dans au moins deux jours...
