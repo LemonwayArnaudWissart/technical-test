@@ -1,8 +1,8 @@
 Test technique Lemonway
 
-Afin de pouvoir exploiter la solution correctement, je vous demande deux petites actions que je ne suis pas parvenu à sauvegarder au niveau des fichiers projets "pour tous" (malgré avoir coché la case "pour tous les utilisateurs" ?) mais au niveau des fichiers user, qui sont exclus via git ignore.
+Afin de pouvoir exploiter la solution correctement, deux petites actions seront nécessaires, que je ne suis pas parvenu à sauvegarder au niveau des fichiers projets "pour tous" (malgré avoir coché la case "pour tous les utilisateurs" ?) mais au niveau des fichiers user, qui sont exclus via git ignore.
 
-1/ Aller dans les propriétés du projet SoapService de manière à lui demander de démarrer sur la page WebService.asmx
+1/ Aller dans les propriétés du projet SoapService de manière à lui demander de démarrer sur la page WebService.asmx. Cela permet de passer par le Global.asax, l'endroit où est chargée la configuration de Log4Net
 
 2/ Au niveau des propriétés de la solution, cette fois, faire en sorte qu'il y ait 2 (ou 3) projets de démarrage (SoapService et WinformsApp et éventuellement ConsoleApp)
 
